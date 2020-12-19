@@ -1,0 +1,29 @@
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /views/
+      
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Root@123
+    url: jdbc:mysql://localhost:3306/sarang
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+    show-sql: true
+   
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sarangshinde800@gmail.com
+    password: Sa8149790854.
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true 

@@ -1,0 +1,15 @@
+Hii {firstName} {lastName},
+<br/>
+	Welcome to IES family, Your registration is almost-web-app-- complete.Please use below details to unlock your account.
+<br/>
+
+Temporary Password : {tempPwd}
+<br/>
+
+<a href = 'http://localhost:2020/User-managment/unlockAccount?email={email}'>
+Click here to unlock your account </a> <br/> <br/>
+
+
+Thanks and Regards , </br>
+ 
+Team Sarang. <br>
